@@ -79,7 +79,7 @@
       </div>
     </header> -->
 
-    <main class="container mx-auto sm:px-16 lg:px-28 px-8 my-28">
+    <main class="container mx-auto sm:px-16 lg:px-28 px-8 my-32">
       <section>
         <h3 class="text-center font-bold text-3xl md:text-4xl lg:text-4xl">
           Our Featured Products
@@ -146,7 +146,7 @@
       </section>
 
       <!-- fresh thing -->
-      <section class="my-32">
+      <section class="my-36">
         <div class="flex flex-col lg:flex-row gap-16">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-10 flex-1">
             <div
@@ -197,7 +197,7 @@
       <!-- meet our super client -->
 
       <section
-        class="my-28 flex flex-col lg:flex-row rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-7 lg:px-16 py-20 md:justify-between md:items-center gap-20"
+        class="my-36 flex flex-col lg:flex-row rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-7 lg:px-16 py-20 md:justify-between md:items-center gap-20"
       >
         <div class="space-y-5">
           <h2
@@ -332,48 +332,56 @@
       </section>
     </main>
 
-    <footer class=" bg-gradient-to-r from-amber-200 to-[#f55b61] lg:px-32 px-6 py-24">
-      <div class="flex justify-between p-10">
+    <footer class="lg:px-40 px-8 py-32 bg-base-200 text-base-content">
+      <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center">
         <img src="./images/cup.png" alt="">
-        <div class="flex items-center">
-          <h3 class="text-[#494949] text-lg mx-5">Ready to get strated?</h3>
-          <button class="bg-gradient-to-r from-[#FF8938] to-[#F00] text-white py-2 px-3 rounded-lg text-lg">Get Started</button>
+        <div class="flex items-center gap-8 lg:mt-0 mt-8">
+          <h2 class="text-lg text-[#494949]">Ready to get strated?</h2>
+          <button class="rounded-lg text-lg py-2 px-4 bg-gradient-to-r from-[#FF8938] to-[#F00] border-none text-white">Get Started</button>
+          
         </div>
       </div>
-      <div class="footer p-10">
+      <div class="footer mt-20">
         <div>
-          <span class="footer-title">Quick Links</span> 
+          <span class="font-bold text-black text-lg">Quick Links</span> 
           <a class="link link-hover">Home</a> 
           <a class="link link-hover">About Us</a> 
           <a class="link link-hover">Insurance</a> 
           <a class="link link-hover">Privacy Policy</a>
         </div> 
         <div>
-          <span class="footer-title">Our Service</span> 
+          <span class="font-bold text-black text-lg">Our Service</span> 
           <a class="link link-hover">Life Insurance</a> 
           <a class="link link-hover">Car Insurance</a> 
           <a class="link link-hover">Health Insurance</a> 
           <a class="link link-hover">House Insurance</a>
         </div> 
         <div>
-          <span class="footer-title">Help</span> 
+          <span class="font-bold text-black text-lg">Help</span> 
           <a class="link link-hover">FAQs</a> 
           <a class="link link-hover">Contact Us</a> 
+          
         </div> 
         <div>
-          <span class="footer-title">Subscribe to our newsletter</span> 
-          <div class="form-control w-80">
-            <div class="flex">
-              <input type="text" placeholder="Email address" class="py-4 px-4 w-full bg-[#ff000023] text-black " /> 
-              <button class="btn btn-primary  top-0 right-0">Subscribe</button>
+          <span class="font-bold text-black text-2xl lg:w-[200px] mb-6">Subscribe to our newsletter</span> 
+          <div class="form-control w-80"> 
+            <div class="relative">
+              <input type="text" placeholder="Email address" class=" border-b-2 bg-transparent border-black py-3 px-3 outline-none" /> 
+              <button class="btn  absolute top-0 right-0 rounded-full text-white bg-gradient-to-r from-[#FF8938] to-[#F00] border-none text-lg"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="flex gap-5 mt-6">
+              <span class="text-2xl text-gray-500 cursor-pointer"><i class="fa-brands fa-facebook"></i></span>
+              <span class="text-2xl text-gray-500 cursor-pointer"><i class="fa-brands fa-twitter"></i></span>
+              <span class="text-2xl text-gray-500 cursor-pointer"><i class="fa-brands fa-instagram"></i></span>
             </div>
           </div>
         </div>
       </div>
-      <div class="mt-8 text-center">
-        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      
+
+      <div class="mt-32 text-center pb-0">
+        <p>© 2027 UIDesign.to - All rights reserved.</p>
       </div>
-     
     </footer>
   </body>
 </html>
