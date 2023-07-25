@@ -48,36 +48,77 @@
     </script>
   </head>
   <body class="font-manrope">
-    <!-- <header class="container mx-auto my-28 lg:px-32 px-6">
-      <div class="hero">
-        <div class=" flex flex-col lg:flex-row-reverse ">
+    <header class="container mx-auto  lg:px-28 px-6">
 
-            <div>
-                <img src="/images/banner.png" class=" w-auto sm:max-w-[90%] lg:max-w-[90%]" />
-                <div class="flex items-center gap-4 drop-shadow-xl rounded-xl bg-white w-[230px] sm:w-[250px] sm:p-6 sm:-mt-24 sm:ml-16 lg:w-[250px] -mt-16 lg:-mt-28 lg:ml-12 p-3 lg:p-5">
-                    <span class="text-3xl text-orange-400"><i class="fa-solid fa-star"></i></span>
-                    <div>
-                        <h2 class="text-[#1C1C1C] text-lg lg:text-xl font-extrabold">5.00</h2>
-                        <p class="text-[#777] text-base lg:text-md">Trust Pilot Ratings</p>
-                    </div>
-                </div>
-            </div>
-
-          
-          <div class="lg:mx-24 my-14 sm:mx-auto sm:text-center">
-            <h1 class=" text-4xl sm:text-6xl sm:w-[480px] sm:text-center sm:mx-auto  lg:text-7xl w-[320px] lg:w-[440px]  font-extrabold text-[#1C1C1C]">
-              It's good 
-               tea time at The 
-               Tea House
-            </h1>
-            <p class="py-6 text-[#777] sm:w-[450px] lg:w-[400px]">
-                Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
-            </p>
-            <button class=" text-white bg-gradient-to-r from-[#FF8938] to-[#F00] flex items-center py-3 px-3 lg:py-4 lg:px-4 rounded-md font-semibold text-lg text-center  sm:mx-auto">Explore More <span class="mx-2"><img src="./images/arrow.png" alt=""></span></button>
-          </div>
+      <!-- navbar -->
+      <div class="relative z-20 w-full   shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+        <div class="relative mx-auto lg:px-0 px-1   lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
+          <nav aria-label="main navigation" class="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700" role="navigation">
+            <!-- Brand logo -->
+             <span class="py-4 lg:px-24"><img class=" w-12" src="./images/cup.png" alt=""></span>
+             
+            <!-- Mobile trigger -->
+            <button class="relative self-center order-10 visible block w-10 h-10 opacity-100 lg:hidden" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="absolute w-6 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                <span aria-hidden="true" class="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"></span>
+                <span aria-hidden="true" class="absolute block h-0.5 w-6 transform rounded-full bg-slate-900 transition duration-300"></span>
+                <span aria-hidden="true" class="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"></span>
+              </div>
+            </button>
+            <!-- Navigation links -->
+            <ul role="menubar" aria-label="Select page" class="invisible absolute top-0 left-0 z-[-1] ml-auto h-screen w-full justify-center overflow-hidden overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-28 font-medium opacity-0 transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0 lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0 lg:pt-0 lg:opacity-100">
+              <li role="none" class="flex items-stretch">
+                <a role="menuitem" aria-haspopup="false" tabindex="0" class="flex items-center gap-2 py-4 transition-colors duration-300  focus:bg-yellow-200 focus:outline-none focus-visible:outline-none lg:px-8" href="javascript:void(0)"> <span>Home</span></a>
+              </li>
+              <li role="none" class="flex items-stretch">
+                <a role="menuitem" aria-current="page" aria-haspopup="false" tabindex="0" class="flex items-center gap-2 py-4 transition-colors duration-300   focus:bg-yellow-200 focus:outline-none focus-visible:outline-none lg:px-8" href="javascript:void(0)"> <span>Product</span> </a>
+              </li>
+              <li role="none" class="flex items-stretch">
+                <a role="menuitem" aria-haspopup="false" tabindex="0" class="flex items-center gap-2 py-4 transition-colors duration-300  focus:bg-yellow-200 focus:outline-none focus-visible:outline-none lg:px-8" href="javascript:void(0)"> <span>About us</span> </a>
+              </li>
+              <li role="none" class="flex items-stretch">
+                <a role="menuitem" aria-haspopup="false" tabindex="0" class="flex items-center gap-2 py-4 transition-colors duration-300  focus:bg-yellow-200 focus:outline-none focus-visible:outline-none lg:px-8" href="javascript:void(0)"> <span>Contact</span> </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </header> -->
+
+      <!-- end navbar -->
+      
+        <section class="my-16">
+          <div class="flex flex-col lg:justify-between lg:flex-row-reverse items-center ">
+  
+              <div>
+                  <img src="/images/banner.png" class=" sm:max-w-lg md:max-w-lg lg:max-w-xl" />
+                  <div class="flex items-center gap-4 drop-shadow-xl rounded-xl bg-white w-[230px] sm:w-[250px] sm:p-6 sm:-mt-24 sm:ml-16 lg:w-[250px] -mt-16 lg:-mt-28 lg:ml-12 p-3 lg:p-5">
+                      <span class="text-3xl text-orange-400"><i class="fa-solid fa-star"></i></span>
+                      <div>
+                          <h2 class="text-[#1C1C1C] text-lg lg:text-xl font-extrabold">5.00</h2>
+                          <p class="text-[#777] text-base lg:text-md">Trust Pilot Ratings</p>
+                      </div>
+                  </div>
+              </div>
+  
+            
+            <div class="lg:mx-24 my-14">
+              <h1 class=" text-4xl sm:text-6xl sm:w-[480px]  sm:mx-auto  lg:text-7xl w-[320px] lg:w-[440px]  font-extrabold text-[#1C1C1C]">
+                It's good 
+                 tea time at The 
+                 Tea House
+              </h1>
+              <p class="py-6 text-[#777] sm:w-[450px] lg:w-[400px]">
+                  Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+              </p>
+              <button class=" text-white bg-gradient-to-r from-[#FF8938] to-[#F00] flex items-center py-3 px-3 lg:py-3 lg:px-3 rounded-md font-semibold text-lg">Explore More <span class="mx-2"><img src="./images/arrow.png" alt=""></span></button>
+            </div>
+          </div>
+        </section>
+     
+    </header>
+    
+
+   
 
     <main class="container mx-auto sm:px-16 lg:px-28 px-8 my-32">
       <section>
@@ -335,8 +376,8 @@
     <footer class="lg:px-40 px-8 py-32 bg-base-200 text-base-content">
       <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center">
         <img src="./images/cup.png" alt="">
-        <div class="flex items-center gap-8 lg:mt-0 mt-8">
-          <h2 class="text-lg text-[#494949]">Ready to get strated?</h2>
+        <div class="flex items-center gap-8 lg:mt-0 mt-8 lg:mx-44">
+          <h2 class="text-lg text-[#494949]">Ready to get started?</h2>
           <button class="rounded-lg text-lg py-2 px-4 bg-gradient-to-r from-[#FF8938] to-[#F00] border-none text-white">Get Started</button>
           
         </div>
